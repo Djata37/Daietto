@@ -1,0 +1,34 @@
+.flex-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+h4 {
+  color: $orange;
+}
+a {
+  position: relative;
+  display: inline-flex;
+  max-width: 168px;
+  max-height: 45px;
+  p {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  article {
+    width: 1227px;
+    div {
+      width: 100%;
+    }
+  }
+}
