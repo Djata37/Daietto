@@ -20,6 +20,8 @@ footer {
                 }
                 .social-list {
                     display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
                     .social-item {
                         &:not(:last-child){
                             margin-right: 1.15em ;

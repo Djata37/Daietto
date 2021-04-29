@@ -184,6 +184,8 @@ footer .container .footer-content .header-footer .footer-title {
 }
 footer .container .footer-content .header-footer .social-list {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 footer .container .footer-content .header-footer .social-list .social-item:not(:last-child) {
   margin-right: 1.15em;
