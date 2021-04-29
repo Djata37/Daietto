@@ -1,5 +1,5 @@
 body {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .container {
@@ -37,17 +37,58 @@ body {
 }
 
 .button-orange {
-  background: transparent linear-gradient(102deg, #E95841 0%, #E94B63 100%) 0% 0% no-repeat padding-box;
-  box-shadow: 0px 5px 10px #E9584129;
+  background: transparent linear-gradient(102deg, #e95841 0%, #e94b63 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #e9584129;
   border-radius: 27px;
   opacity: 1;
   padding: 13px 29px;
+  min-width: 168px;
+  min-height: 45px;
 }
 
 .button-white {
-  background: #F9F9F9 0% 0% no-repeat padding-box;
-  box-shadow: 0px 5px 10px #E9584129;
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #e9584129;
   border-radius: 27px;
   opacity: 1;
-  color: #E95841;
+  padding: 13px 29px;
+  color: #e95841;
+  min-width: 168px;
+  min-height: 45px;
+}
+
+.flex-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+h4 {
+  color: #e95841;
+}
+
+a {
+  position: relative;
+  display: inline-flex;
+  max-width: 168px;
+  max-height: 45px;
+}
+a p {
+  margin: auto;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+li article {
+  width: 1227px;
+}
+li article div {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
