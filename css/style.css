@@ -11,6 +11,10 @@ body {
   font-size: 3.44rem;
 }
 
+.h2-like {
+  font-size: 2.375rem;
+}
+
 .h3-like {
   font-size: 1.625rem;
   font-weight: 700;
@@ -51,6 +55,7 @@ body {
   box-shadow: 0px 5px 10px #e9584129;
   border-radius: 27px;
   opacity: 1;
+
   padding: 13px 29px;
   color: #e95841;
   min-width: 168px;
@@ -58,10 +63,17 @@ body {
 }
 
 .flex-articles {
+
+  color: #E95841;
+}
+
+footer .header-footer {
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 
 ul {
   list-style: none;
@@ -91,4 +103,26 @@ li article {
 }
 li article div {
   width: 100%;
+
+footer .header-footer .footer-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+footer .footer-mentions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .footer-mentions .copyright {
+  font-size: 0.875rem;
+  color: #666666;
+}
+footer .footer-mentions .mentions-links {
+  font-size: 0.75rem;
+  color: #181818;
+}
+footer .footer-mentions .mentions-links .orange {
+  color: #E95841;
+
 }/*# sourceMappingURL=style.css.map */
