@@ -1,27 +1,47 @@
 footer {
-    .header-footer {
+    padding: 3em 0;
+    .container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        .footer-title {
-            display: flex;
-            flex-direction: row;
-            justify-content: start;
+        .footer-logo {
+            margin-right: 1em;
         }
-    }
-    .footer-mentions {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        .copyright {
-            font-size: 0.875rem;
-            color: $footer-color;
-        }
-        .mentions-links {
-            font-size: 0.75rem;
-            color: $black;
-            .orange {
-                color: $orange;
+        .footer-content {
+            width: 100%;
+            .header-footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 1.65em;
+                .footer-title {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                }
+                .social-list {
+                    display: flex;
+                    .social-item {
+                        &:not(:last-child){
+                            margin-right: 1.15em ;
+                        }
+                    }
+                }
+            }
+            .footer-mentions {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .copyright {
+                    font-size: 0.875rem;
+                    color: $footer-color;
+                }
+                .mentions-links {
+                    font-size: 0.75rem;
+                    color: $black;
+                    .orange {
+                        color: $orange;
+                    }
+                }
             }
         }
     }
