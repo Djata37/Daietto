@@ -3,25 +3,25 @@ body {
 }
 
 .container {
-  width: 68.125rem;
+  width: 68.125em;
   margin: 0 auto;
 }
 
 .h1-like {
-  font-size: 3.44rem;
+  font-size: 3.44em;
 }
 
 .h2-like {
-  font-size: 2.375rem;
+  font-size: 2.375em;
 }
 
 .h3-like {
-  font-size: 1.625rem;
+  font-size: 1.625em;
   font-weight: 700;
 }
 
 .h4-like {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -32,12 +32,12 @@ body {
 .label-title {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 1.125em;
 }
 
 .nunito-text {
   font-family: "Nunito", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.125em;
 }
 
 .button-orange {
@@ -55,7 +55,6 @@ body {
   box-shadow: 0px 5px 10px #e9584129;
   border-radius: 27px;
   opacity: 1;
-
   padding: 13px 29px;
   color: #e95841;
   min-width: 168px;
@@ -63,20 +62,19 @@ body {
 }
 
 .flex-articles {
-
-  color: #E95841;
-}
-
-footer .header-footer {
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
+main {
+  width: 100%;
+}
 
 ul {
   list-style: none;
+  width: 100%;
+  padding: 0;
 }
 
 h4 {
@@ -94,16 +92,46 @@ a p {
   text-align: center;
 }
 
-li {
+.list-item {
   display: flex;
   justify-content: center;
-}
-li article {
-  width: 1227px;
-}
-li article div {
   width: 100%;
+}
+.list-item .flex-articles {
+  width: 100%;
+}
+.list-item .flex-articles img {
+  width: 50%;
+}
+.list-item .flex-articles div {
+  width: 50%;
+}
+.list-item .flex-articles div span {
+  font-weight: 400;
+}
 
+.container .h4-like {
+  text-align: center;
+}
+.container .h1-like {
+  text-align: center;
+}
+.container .card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .card-list h3 {
+  text-align: center;
+}
+.container .card-list .card-list-item {
+  width: 33%;
+}
+
+footer .header-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 footer .header-footer .footer-title {
   display: flex;
   flex-direction: row;
@@ -123,6 +151,5 @@ footer .footer-mentions .mentions-links {
   color: #181818;
 }
 footer .footer-mentions .mentions-links .orange {
-  color: #E95841;
-
+  color: #e95841;
 }/*# sourceMappingURL=style.css.map */
