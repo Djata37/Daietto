@@ -1,0 +1,28 @@
+footer {
+    .header-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .footer-title {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+        }
+    }
+    .footer-mentions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .copyright {
+            font-size: 0.875rem;
+            color: $footer-color;
+        }
+        .mentions-links {
+            font-size: 0.75rem;
+            color: $black;
+            .orange {
+                color: $orange;
+            }
+        }
+    }
+}
