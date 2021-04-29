@@ -1,2 +1,53 @@
+body {
+  background-color: #F9F9F9;
+}
 
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+.container {
+  width: 68.125rem;
+  margin: 0 auto;
+}
+
+.h1-like {
+  font-size: 3.44rem;
+}
+
+.h3-like {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+.h4-like {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.bold-title {
+  font-weight: 700;
+}
+
+.label-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.nunito-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.125rem;
+}
+
+.button-orange {
+  background: transparent linear-gradient(102deg, #E95841 0%, #E94B63 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #E9584129;
+  border-radius: 27px;
+  opacity: 1;
+  padding: 13px 29px;
+}
+
+.button-white {
+  background: #F9F9F9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #E9584129;
+  border-radius: 27px;
+  opacity: 1;
+  color: #E95841;
+}/*# sourceMappingURL=style.css.map */
