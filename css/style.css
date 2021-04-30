@@ -48,6 +48,7 @@ body {
   padding: 13px 29px;
   min-width: 168px;
   min-height: 45px;
+  font-family: "Montserrat";
 }
 
 .button-white {
@@ -57,8 +58,9 @@ body {
   opacity: 1;
   padding: 13px 29px;
   color: #e95841;
-  min-width: 168px;
+  min-width: 184px;
   min-height: 45px;
+  font-family: "Montserrat";
 }
 
 .flex-articles {
@@ -100,15 +102,21 @@ a p {
 .list-item .flex-articles {
   width: 100%;
 }
-
 .list-item .flex-articles img {
   width: 50%;
 }
 .list-item .flex-articles div {
-  width: 50%;
+  width: 30%;
+  margin: auto;
 }
 .list-item .flex-articles div span {
   font-weight: 400;
+}
+.list-item .flex-articles div p {
+  padding: 2px;
+}
+.list-item .flex-articles div a {
+  font-size: 0.875em;
 }
 
 .container .h4-like {
@@ -117,23 +125,30 @@ a p {
 .container .h1-like {
   text-align: center;
 }
+.container .h1-like span {
+  font-weight: 300;
+}
 .container .card-list {
   display: flex;
   flex-wrap: wrap;
+  font-family: "Montserrat";
 }
 .container .card-list h3 {
   text-align: center;
+  margin-bottom: 10px;
+}
+.container .card-list h3 span {
+  color: #e95841;
 }
 .container .card-list .card-list-item {
-  width: 33%;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 14px 40px #00000014;
+  border-radius: 5px;
+  font-size: 0.875em;
 }
-
-footer .header-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-footer .header-footer .footer-title {
 
 footer {
   padding: 3em 0;
@@ -149,7 +164,6 @@ footer .container .footer-content {
   width: 100%;
 }
 footer .container .footer-content .header-footer {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -179,8 +193,6 @@ footer .container .footer-content .footer-mentions .mentions-links {
   font-size: 0.75rem;
   color: #181818;
 }
-
 footer .container .footer-content .footer-mentions .mentions-links .orange {
-
   color: #e95841;
 }/*# sourceMappingURL=style.css.map */

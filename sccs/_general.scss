@@ -19,9 +19,7 @@ body {
 }
 
 .h2-like {
-
   font-size: 2.375em;
-
 }
 
 .h3-like {
@@ -58,6 +56,7 @@ body {
   padding: 13px 29px;
   min-width: 168px;
   min-height: 45px;
+  font-family: "Montserrat";
 }
 
 .button-white {
@@ -67,6 +66,7 @@ body {
   opacity: 1;
   padding: 13px 29px;
   color: $orange;
-  min-width: 168px;
+  min-width: 184px;
   min-height: 45px;
+  font-family: "Montserrat";
 }
