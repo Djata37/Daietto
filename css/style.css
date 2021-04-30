@@ -55,12 +55,9 @@ body {
   padding: 13px 29px;
   min-width: 168px;
   min-height: 45px;
-<<<<<<< HEAD
   font-family: "Montserrat";
-=======
   color: white;
   border: none;
->>>>>>> 4fa684abf814f74cc8b831e2ff2f14d0ffa4cb4f
 }
 
 .button-white {
@@ -152,7 +149,6 @@ a p {
 .container .card-list h3 span {
   color: #e95841;
 }
-<<<<<<< HEAD
 .container .card-list .card-list-item {
   width: 30%;
   margin: 10px;
@@ -162,7 +158,6 @@ a p {
   border-radius: 5px;
   font-size: 0.875em;
 }
-=======
 
 .formulaire-section {
   padding: 5.68em 0;
@@ -253,7 +248,6 @@ a p {
   width: 168px;
   font-weight: 700;
 }
->>>>>>> 4fa684abf814f74cc8b831e2ff2f14d0ffa4cb4f
 
 footer {
   padding: 3em 0;
