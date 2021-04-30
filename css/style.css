@@ -239,6 +239,7 @@ main .container .card-list .card-list-item {
 
 footer {
   padding: 3em 0;
+  background-color: white;
 }
 footer .container {
   display: flex;
