@@ -1,6 +1,17 @@
 .formulaire-section {
+    padding: 5.68em 0;
     .container {
+        display: flex;
+        flex-direction: row;
         .form-text {
+            display: flex;
+            flex-direction: column;
+            .h4-like, .h1-like {
+                text-align: left;
+            }
+            .orange:not(:first-child) {
+                font-size: 0.875em;
+            }
             .nunito-text {
                 margin-top: 1.5em;
                 margin-bottom: 2em;
@@ -9,28 +20,66 @@
                 display: flex;
                 flex-direction: row;
                 margin-top: 1.5em;
+                filter: opacity(0.5);
                 .social-item:not(:first-child) {
                     margin-left: 1.875em;
                 }
             }
         }
         .form-content {
-            .label-title {
-                margin-bottom: 0.875em;
-            }
-            input {
-                margin-bottom: 1.5em;
-                width: 33.5em;
-            }
-            .select-content {
-                margin-bottom: 1.5em;
-                select {
-                    width: 16.25em;
+            display: flex;
+            flex-direction: column;
+            margin-left: 3.25em;
+            form {
+                display: flex;
+                flex-direction: column;
+                .label-title {
+                    margin-bottom: 0.875em;
                 }
-            }
-            textarea {
-                margin-bottom: 2em;
-                width: 33.5em;
+                input:not(.button-orange) {
+                    margin-bottom: 1.5em;
+                    width: 33.5em;
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    border-radius: 5px;
+                    border: none;
+                }
+                .select-content {
+                    margin-bottom: 1.5em;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    column-count: 2;
+                    .select-item {
+                        display: flex;
+                        flex-direction: column; 
+                    select {
+                        width: 16.25em;
+                        background: #FFFFFF 0% 0% no-repeat padding-box;
+                        border-radius: 5px;
+                        border: none;
+                        margin-left: 1.5em;
+                        font-family: 'Nunito', sans-serif;
+                    }
+                }
+                }
+                textarea {
+                    margin-bottom: 2em;
+                    width: 33.5em;
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    border-radius: 5px;
+                    border: none;
+                    color: $gris;
+                    opacity: 50%;
+                    margin-top: 1em;
+                    margin-left: 1.5em;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 1.125em;
+                    height: 9em;
+                }
+                .button-orange {
+                    width: 168px;
+                    font-weight: 700;
+                }
             }
         }
     }

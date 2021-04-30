@@ -10,10 +10,12 @@ body {
 
 .h1-like {
   font-size: 3.44em;
+  font-weight: 400;
 }
 
 .h2-like {
   font-size: 2.375em;
+  font-weight: 400;
 }
 
 .h3-like {
@@ -41,6 +43,10 @@ body {
   font-size: 1.125em;
 }
 
+.orange {
+  color: #e95841;
+}
+
 .button-orange {
   background: transparent linear-gradient(102deg, #e95841 0%, #e94b63 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 10px #e9584129;
@@ -49,6 +55,8 @@ body {
   padding: 13px 29px;
   min-width: 168px;
   min-height: 45px;
+  color: white;
+  border: none;
 }
 
 .button-white {
@@ -128,6 +136,23 @@ a p {
   width: 33%;
 }
 
+.formulaire-section {
+  padding: 5.68em 0;
+}
+.formulaire-section .container {
+  display: flex;
+  flex-direction: row;
+}
+.formulaire-section .container .form-text {
+  display: flex;
+  flex-direction: column;
+}
+.formulaire-section .container .form-text .h4-like, .formulaire-section .container .form-text .h1-like {
+  text-align: left;
+}
+.formulaire-section .container .form-text .orange:not(:first-child) {
+  font-size: 0.875em;
+}
 .formulaire-section .container .form-text .nunito-text {
   margin-top: 1.5em;
   margin-bottom: 2em;
@@ -136,26 +161,67 @@ a p {
   display: flex;
   flex-direction: row;
   margin-top: 1.5em;
+  filter: opacity(0.5);
 }
 .formulaire-section .container .form-text .social-list .social-item:not(:first-child) {
   margin-left: 1.875em;
 }
-.formulaire-section .container .form-content .label-title {
+.formulaire-section .container .form-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.25em;
+}
+.formulaire-section .container .form-content form {
+  display: flex;
+  flex-direction: column;
+}
+.formulaire-section .container .form-content form .label-title {
   margin-bottom: 0.875em;
 }
-.formulaire-section .container .form-content input {
+.formulaire-section .container .form-content form input:not(.button-orange) {
   margin-bottom: 1.5em;
   width: 33.5em;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
 }
-.formulaire-section .container .form-content .select-content {
+.formulaire-section .container .form-content form .select-content {
   margin-bottom: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-count: 2;
+       column-count: 2;
 }
-.formulaire-section .container .form-content .select-content select {
+.formulaire-section .container .form-content form .select-content .select-item {
+  display: flex;
+  flex-direction: column;
+}
+.formulaire-section .container .form-content form .select-content .select-item select {
   width: 16.25em;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
+  margin-left: 1.5em;
+  font-family: "Nunito", sans-serif;
 }
-.formulaire-section .container .form-content textarea {
+.formulaire-section .container .form-content form textarea {
   margin-bottom: 2em;
   width: 33.5em;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
+  color: #333333;
+  opacity: 50%;
+  margin-top: 1em;
+  margin-left: 1.5em;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.125em;
+  height: 9em;
+}
+.formulaire-section .container .form-content form .button-orange {
+  width: 168px;
+  font-weight: 700;
 }
 
 footer {
@@ -186,6 +252,7 @@ footer .container .footer-content .header-footer .social-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  filter: opacity(0.5);
 }
 footer .container .footer-content .header-footer .social-list .social-item:not(:last-child) {
   margin-right: 1.15em;

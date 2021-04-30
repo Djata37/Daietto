@@ -22,6 +22,7 @@ footer {
                     display: flex;
                     justify-content: flex-end;
                     align-items: center;
+                    filter: opacity(0.5);
                     .social-item {
                         &:not(:last-child){
                             margin-right: 1.15em ;
