@@ -1,11 +1,13 @@
+main {
+  width: 100%;
+
 .flex-articles {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-main {
-  width: 100%;
-}
+
+
 ul {
   list-style: none;
   width: 100%;
@@ -38,9 +40,6 @@ a {
     div {
       width: 30%;
       margin: auto;
-      span {
-        font-weight: 400;
-      }
       p {
         padding: 2px;
       }
@@ -57,10 +56,6 @@ a {
   }
   .h1-like {
     text-align: center;
-
-    span {
-      font-weight: 300;
-    }
   }
   .card-list {
     display: flex;
@@ -83,4 +78,6 @@ a {
       font-size: 0.875em;
     }
   }
+}
+
 }

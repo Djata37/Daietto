@@ -72,84 +72,72 @@ body {
   font-family: "Montserrat";
 }
 
-.flex-articles {
+main {
+  width: 100%;
+}
+main .flex-articles {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
-main {
-  width: 100%;
-}
-
-ul {
+main ul {
   list-style: none;
   width: 100%;
   padding: 0;
 }
-
-h4 {
+main h4 {
   color: #e95841;
 }
-
-a {
+main a {
   position: relative;
   display: inline-flex;
   max-width: 168px;
   max-height: 45px;
 }
-a p {
+main a p {
   margin: auto;
   text-align: center;
 }
-
-.list-item {
+main .list-item {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.list-item .flex-articles {
+main .list-item .flex-articles {
   width: 100%;
 }
-.list-item .flex-articles img {
+main .list-item .flex-articles img {
   width: 50%;
 }
-.list-item .flex-articles div {
+main .list-item .flex-articles div {
   width: 30%;
   margin: auto;
 }
-.list-item .flex-articles div span {
-  font-weight: 400;
-}
-.list-item .flex-articles div p {
+main .list-item .flex-articles div p {
   padding: 2px;
 }
-.list-item .flex-articles div a {
+main .list-item .flex-articles div a {
   font-size: 0.875em;
 }
-
-.container .h4-like {
+main .container .h4-like {
   text-align: center;
 }
-.container .h1-like {
+main .container .h1-like {
   text-align: center;
 }
-.container .h1-like span {
-  font-weight: 300;
-}
-.container .card-list {
+main .container .card-list {
   display: flex;
   flex-wrap: wrap;
   font-family: "Montserrat";
 }
-.container .card-list h3 {
+main .container .card-list h3 {
   text-align: center;
   margin-bottom: 10px;
 }
-.container .card-list h3 span {
+main .container .card-list h3 span {
   color: #e95841;
 }
-.container .card-list .card-list-item {
+main .container .card-list .card-list-item {
   width: 30%;
   margin: 10px;
   padding: 10px;
