@@ -3,9 +3,13 @@
   flex-direction: row;
   justify-content: space-around;
 }
-
+main {
+  width: 100%;
+}
 ul {
   list-style: none;
+  width: 100%;
+  padding: 0;
 }
 
 h4 {
@@ -22,13 +26,39 @@ a {
   }
 }
 
-li {
+.list-item {
   display: flex;
   justify-content: center;
-  article {
-    width: 1227px;
+  width: 100%;
+  .flex-articles {
+    width: 100%;
+    img {
+      width: 50%;
+    }
     div {
-      width: 100%;
+      width: 50%;
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.container {
+  .h4-like {
+    text-align: center;
+  }
+  .h1-like {
+    text-align: center;
+  }
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    h3 {
+      text-align: center;
+    }
+    .card-list-item {
+      width: 33%;
     }
   }
 }
