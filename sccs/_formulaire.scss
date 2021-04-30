@@ -38,7 +38,8 @@
                 }
                 input:not(.button-orange) {
                     margin-bottom: 1.5em;
-                    width: 33.5em;
+                    min-width: 33.5em;
+                    min-height: 3.4375em;
                     background: #FFFFFF 0% 0% no-repeat padding-box;
                     border-radius: 5px;
                     border: none;
@@ -54,6 +55,7 @@
                         flex-direction: column; 
                     select {
                         width: 16.25em;
+                        min-height: 3.4375em;
                         background: #FFFFFF 0% 0% no-repeat padding-box;
                         border-radius: 5px;
                         border: none;

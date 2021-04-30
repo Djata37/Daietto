@@ -180,7 +180,8 @@ a p {
 }
 .formulaire-section .container .form-content form input:not(.button-orange) {
   margin-bottom: 1.5em;
-  width: 33.5em;
+  min-width: 33.5em;
+  min-height: 3.4375em;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border-radius: 5px;
   border: none;
@@ -199,6 +200,7 @@ a p {
 }
 .formulaire-section .container .form-content form .select-content .select-item select {
   width: 16.25em;
+  min-height: 3.4375em;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border-radius: 5px;
   border: none;
@@ -293,9 +295,7 @@ nav {
 }
 .hero .hero-text h1 {
   line-height: 1em;
-}
-.hero .hero-text h1 span {
-  font-weight: 500;
+  text-align: left;
 }
 .hero .hero-text .my-title {
   padding-bottom: 1.5rem;
@@ -315,6 +315,7 @@ nav {
 .hero .hero-text .hero-button-container a {
   text-align: center;
   text-decoration: none;
+  font-size: 0.875em;
 }
 .hero .hero-text .hero-button-container .button-orange {
   color: white;
@@ -335,7 +336,7 @@ nav {
 .hero .hero-picture .hero-picture-main .hero-picture-logo {
   position: absolute;
   top: 360px;
-  right: 200px;
+  right: 120px;
   background-color: white;
   padding: 2rem;
   border-radius: 50%;
