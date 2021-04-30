@@ -109,6 +109,11 @@ main .list-item .flex-articles {
 main .list-item .flex-articles img {
   width: 50%;
 }
+main .list-item .flex-articles .debarras {
+  box-shadow: 0px 14px 40px #00000014;
+  border-radius: 13px;
+  margin-bottom: 121px;
+}
 main .list-item .flex-articles div {
   width: 30%;
   margin: auto;
