@@ -1,0 +1,109 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.hero {
+    padding-top: 5.3rem;
+    padding-bottom: 10.5rem;
+    .hero-text {
+        width: 50%;
+
+        h1 {
+            line-height: 1em;
+
+            span {
+                font-weight: 500;
+            }
+        }
+
+        .my-title {
+            padding-bottom: 1.5rem;
+        }
+
+        .decoration-bar {
+            width: 15rem;
+            height: 5px;
+            background: transparent linear-gradient(102deg, #e95841 0%, #e94b63 100%) 0%;
+            margin-bottom: 1.5rem;
+        }
+
+        .whois {
+            padding-bottom: 1.5rem;
+        }
+
+        .main-text {
+            padding-bottom: 3rem;
+        }
+
+        .hero-button-container {
+            a {
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .button-orange {
+                color: white;
+                text-align: center;
+            }
+
+            .button-white {
+                text-align: center;
+
+            }
+        }
+
+    }
+
+    .hero-picture {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin:-40px;
+
+        .hero-picture-main {
+            
+            img {
+                position: relative;
+            
+            }
+
+            .hero-picture-logo {
+                position: absolute;
+                top: 360px;
+                right: 200px;
+                background-color: white;
+                padding: 2rem;
+                border-radius: 50%;
+                box-shadow: 0px 14px 40px #00000029;
+            }
+        }
+
+        .social-hero {
+            .social-hero-list {
+                display: flex;
+                width: 100%;
+                li {
+                    
+                    &:not(:first-child) {
+                        margin-left: 2rem;
+                    }
+                    a {
+                        svg {
+                            fill: $footer-color;
+                            height:5rem;
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    display:flex;
+    justify-content: space-between;
+}
