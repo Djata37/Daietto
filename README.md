@@ -7,10 +7,7 @@ Site réalisé avec une équipe de 3, chacun ayant une partie à réaliser.
 
 Utilisation de:
 
-HTML
-Sass / CSS
-VS-Code
-Maquette sur Adobe-XD
+HTML - Sass / CSS - VS-Code - Maquette sur Adobe-XD
 
 
 
